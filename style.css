@@ -1,0 +1,116 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #7F592B;
+}
+header {
+	margin: 0.1px;
+	padding: 0.1px;
+	height: 150px;
+	background-color: #54AF51;
+	text-align: center;
+	font-size: 30px;
+	color: #57D753;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 50px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+}
+.form_style {
+	height: auto;
+	margin: 0 20px 0 0;
+	background-color: #9F6A31;
+	padding: 10px 20px;
+	border-radius: 8px;
+	width: 30%;
+	display: inline-block;
+	color: #902F21;
+}
+.form_style a{
+	color: #44BC3B;
+	text-decoration: none;
+	transition: color 500ms;
+}
+.form_style a:hover{
+	color: #7DFD85;
+	text-decoration: none;
+}
+.form_style h3{
+	color: #ED923E;
+	text-decoration: none;
+}
+.n {
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	margin: 20px 0;
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	color: #814A45;
+	transition: background-color 500ms, color 500ms, border-color 500ms;
+}
+.button {
+	font-size: 25px;
+	color: #74401A;
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #E18B3B;
+	transition: color 500ms, background-color 500ms;
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #74401A;
+	color: #D8772E;
+}
+.button_1 {
+	width: 50%;
+	font-size: 25px;
+	color: #74401A;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: #E18B3B;
+	transition: color 500ms, background-color 500ms;
+}
+.button_1:hover {
+	cursor: pointer;
+	background-color: #74401A;
+	color: #D8772E;
+}
+#checkbox {
+	display: inline-block;
+	width: 40%;
+}
+#rem {
+	color: white;
+	display: inline;
+	font-size: 20px;
+}
+#forgot {
+	margin-top: 10px;
+	margin-right: 10%;
+	display: block;
+	text-align: right;
+}
+footer {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 50px;
+	height: 150px;
+	background-color: #47A340;
+
+}
+footer p {
+	line-height: 150px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
